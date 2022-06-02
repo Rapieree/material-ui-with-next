@@ -5,7 +5,6 @@ const Home = () => {
   return (
     <Layout>
       <Container maxWidth={`lg`}>
-        <h2>ho</h2>
       </Container>
     </Layout>
   );
