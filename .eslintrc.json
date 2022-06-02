@@ -6,7 +6,7 @@
     "jest": false
   },
 
-  "extends": ["htmlacademy/es6", "plugin:react/recommended", "next/core-web-vitals"],
+  "extends": ["next/core-web-vitals", "htmlacademy/es6", "plugin:react/recommended"],
 
   "parserOptions": {
     "ecmaFeatures": {
@@ -20,6 +20,7 @@
 
   "rules": {
     "react/prop-types": 0,
+    "react/react-in-jsx-scope": 0,
     "import/order": ["error", {
       "alphabetize": {"order": "asc", "caseInsensitive": true},
       "groups": ["builtin", "external", "parent", "sibling", "index"]
