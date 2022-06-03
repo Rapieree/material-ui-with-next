@@ -4,7 +4,7 @@ const ServiceName = {
 
 const log = (serviceName, shortInfo, ...args) => {
   // eslint-disable-next-line no-console
-  console.log(`${serviceName}, ${shortInfo},`, ...args);
+  console.log(`${serviceName}: ${shortInfo}`, ...args);
 };
 
 export {
