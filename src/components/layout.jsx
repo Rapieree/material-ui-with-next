@@ -1,7 +1,5 @@
-import {CssBaseline} from "@mui/material";
 import Head from "next/head";
 import React from 'react';
-import MainFrame from "./main-frame";
 
 const Layout = ({children}) => {
   return (
@@ -11,10 +9,6 @@ const Layout = ({children}) => {
       </Head>
 
       <main>
-        <CssBaseline />
-        <MainFrame title={`Test`}>
-
-        </MainFrame>
         {children}
       </main>
     </>
